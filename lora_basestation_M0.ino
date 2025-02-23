@@ -8,8 +8,12 @@
 //        Added setup menu
 // V1.7 - Added communication to tracker to allow changing tracker channel
 //        Added Scan channels option to look for used channels. Added channel display on remote page
-// V1.8 - Added support for EEPROM saving LKG GPS
-
+// V1.8 - Added support for SD cards for data logging and storage of Last Know Good GPS data.
+//		Support for 1 wire EEPROM to store Last Known Good received GPS message. 
+//		Allows changing the transmitter channel. 
+//		Scanning of channels to see which are in use. 
+//		Calibrating the compass module. 
+//		Large arrow support for tracking screen. Display of Maximum speed. Display of Maximum altitude. Display of battery status on basestation display.
 #include <Button.h>
 #include <TinyGPS++.h>
 #include <Adafruit_GFX.h>
